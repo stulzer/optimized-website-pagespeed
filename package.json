@@ -1,0 +1,25 @@
+{
+  "author": "Rubens Stulzer",
+  "description": "Simple Website",
+  "main": "index.js",
+  "name": "example.com",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "grunt"
+  },
+  "engines": {
+    "node": "6.6.0"
+  },
+  "dependencies": {
+    "compression": "1.7.1",
+    "ejs": "2.5.7",
+    "express": "4.16.2",
+    "express-minify-html": "0.11.5"
+  },
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "grunt-cli": "1.2.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-sass": "1.2.1"
+  }
+}
